@@ -1,0 +1,414 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> task-4 </title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/all.css">
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+<header>
+    <h1>Jacket Store</h1>
+     <input id="search" class="p-2 rounded m-5" type="search" placeholder="Search for a jacket ...">
+    <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span>Cart</span>
+    </div>
+</header>
+
+
+<!---products-->
+  <div>
+<ul class="list grid gap-5 sm:grid-cols-3">
+
+    
+ <!-- Card 1 -->
+    <li data-price="1700">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image17.webp"
+                     alt="White Long Coat"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">White Long Coat</h2>
+                <p>Price: 1700 EGP</p>
+                <p>Elegant white long coat with a simple and classic design.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 2 -->
+    <li data-price="1200">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image14.webp"
+                     alt="Cream Blazer"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Cream Blazer</h2>
+                <p>Price: 1200 EGP</p>
+                <p>Elegant cream blazer suitable for a smart and stylish look.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 3 -->
+    <li data-price="1100">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image13.webp"
+                     alt="Black and White Jacket"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Black & White Jacket</h2>
+                <p>Price: 1100 EGP</p>
+                <p>Unique black and white jacket with an elegant design.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 4 -->
+    <li data-price="1250">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image20.webp"
+                     alt="Pink Blazer"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Pink Blazer</h2>
+                <p>Price: 1250 EGP</p>
+                <p>Stylish pink blazer with a modern and elegant look.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+
+    <!-- Card 5 -->
+    <li data-price="1000">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image6.jpg"
+                     alt="Blue Casual Jacket"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Blue Casual Jacket</h2>
+                <p>Price: 1000 EGP</p>
+                <p>Simple blue jacket suitable for everyday casual outfits.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 6 -->
+    <li data-price="900">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image7.jpg"
+                     alt="Navy Casual Jacket"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Navy Casual Jacket</h2>
+                <p>Price: 900 EGP</p>
+                <p>Comfortable navy jacket with a simple and casual style.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 7 -->
+    <li data-price="1600">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image8.jpg"
+                     alt="Black Long Coat"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Black Long Coat</h2>
+                <p>Price: 1600 EGP</p>
+                <p>Elegant black long coat perfect for a stylish winter look.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 8 -->
+    <li data-price="1350">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image11.jpg"
+                     alt="Brown Leather Jacket"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Brown Leather Jacket</h2>
+                <p>Price: 1350 EGP</p>
+                <p>Classic brown jacket with a stylish leather-inspired look.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 9 -->
+     <li data-price="1500">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image4.jpg"
+                     alt="Blue Puffer Jacket"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Blue Puffer Jacket</h2>
+                <p>Price: 1500 EGP</p>
+                <p>Warm blue puffer jacket perfect for cold winter days.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 10 -->
+    <li data-price="1200">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image2.jpg"
+                     alt="Black Long Jacket"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Black Long Jacket</h2>
+                <p>Price: 1200 EGP</p>
+                <p>Stylish black long jacket with an elegant modern design.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 11 -->
+    <li data-price="1050">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image15.webp"
+                     alt="Light Blue Jacket"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Light Blue Jacket</h2>
+                <p>Price: 1050 EGP</p>
+                <p>Light blue jacket with a soft and elegant appearance.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 12 -->
+    <li data-price="1150">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image16.webp"
+                     alt="Burgundy Jacket"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Burgundy Jacket</h2>
+                <p>Price: 1150 EGP</p>
+                <p>Beautiful burgundy jacket with a fashionable elegant style.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 13 -->
+   <li data-price="750">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image1.jpg"
+                     alt="Classic Beige Blazer"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Classic Beige Blazer</h2>
+                <p>Price: 750 EGP</p>
+                <p>Elegant beige blazer for a simple and stylish look.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 14 -->
+    <li data-price="1450">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image19.webp"
+                     alt="Light Pink Coat"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Light Pink Coat</h2>
+                <p>Price: 1450 EGP</p>
+                <p>Soft pink coat with a beautiful and feminine style.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+
+
+    <!-- Card 15 -->
+       <li data-price="1400">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure class="px-10 pt-10">
+                <img src="image/image5.jpg"
+                     alt="Beige Winter Jacket"
+                     class="rounded-xl jacket-img">
+            </figure>
+
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">Beige Winter Jacket</h2>
+                <p>Price: 1400 EGP</p>
+                <p>Comfortable beige jacket designed you warm in winter.</p>
+
+                <div class="card-actions">
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </li>
+ 
+
+</ul>
+ 
+        <!-- shopping cart -->  
+      <h2 class="font-bold text-2xl m-5">shopping cart</h2>
+       <div class="line"></div>
+      <div id="cart" class="grid sm:grid-cols-3 gap-3"></div>
+      <!-- price -->
+      <div id="PriceRusilt" class="mt-5"></div>
+       <!-- show price button -->
+        <button id="ShowPrice" class="btn btn-outline mt-5 ml-10 hidden">Show Price</button>
+</div> 
+
+<!-- Drag & Drop Section -->
+
+<section class="drag-section">
+    <h2>Choose Your Favorite Jacket</h2>
+
+    <div class="drag-container">
+        <div class="drag-products">
+            <h3>Drag Your Favorite Jacket</h3>
+
+            <div class="drag-item" draggable="true" id="jacket1">
+                <img src="image/image1.jpg" alt="Beige Jacket">
+            </div>
+
+            <div class="drag-item" draggable="true" id="jacket2">
+                <img src="image/image2.jpg" alt="Black Jacket">
+            </div>
+
+            <div class="drag-item" draggable="true" id="jacket3">
+                <img src="image/image4.jpg" alt="Blue Jacket">
+            </div>
+
+            <div class="drag-item" draggable="true" id="jacket4">
+                <img src="image/image5.jpg" alt="Winter Jacket">
+            </div>
+
+        </div>
+
+
+        <div class="drop-box" id="dropBox">
+            <h3>Drop Your Favorite Jacket Here</h3>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<script src="javascript/script.js"></script>
+</body>
+</html>

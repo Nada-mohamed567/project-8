@@ -1,0 +1,209 @@
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f3ef;
+}
+
+
+/* ================= Header ================= */
+
+header {
+    height: 70px;
+    background-color: #6b4f4f;
+    color: white;
+
+    padding: 10px 30px;
+}
+
+header h1 {
+    float: left;
+    font-size: 25px;
+    padding: 5px;
+}
+
+header input {
+    background-color: #f8f3ef;
+    color: black;
+    float: left; 
+    width: 400px;
+    padding: 12px;
+    margin-left: 250px;
+    
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cart {
+    float: right;
+
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* ================= Products ================= */
+
+.list {
+    margin:40px;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+/* .card:hover {
+    transform: translate(-5px);
+} */
+
+
+/* ================= Jacket Images ================= */
+
+.jacket-img {
+    width: 250px;
+    height: 300px;
+
+   
+}
+
+
+/* ================= Add To Cart Button ================= */
+
+.card button {
+    background-color: #6b4f4f;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px 20px;
+
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background-color: #4d3838;
+}
+
+
+/* ================= Shopping Cart ================= */
+
+#cart {
+    margin: 30px;
+}
+
+.line{
+    height: 3px;
+    width: 170px;
+    background: #6b4f4f;
+    margin: auto;
+    margin-top: 7px;
+    border-radius: 50%;
+}
+
+
+/* ================= Show Price Button ================= */
+
+#ShowPrice {
+    display: block;
+
+    margin: 30px auto;
+    padding: 12px 30px;
+
+    background-color: #6b4f4f;
+    color: white;
+
+    border: none;
+    border-radius: 7px;
+
+    transition: 0.3s;
+}
+
+#ShowPrice:hover {
+    background-color: #4d3838;
+}
+
+
+/* ================= Price Result ================= */
+
+#PriceRusilt {
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+}
+
+
+/* ================= Discount Message ================= */
+
+.discount-message {
+    background-color: #e8f5e9;
+    border: 2px solid #66bb6a;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 400px;
+     text-align: center;
+}
+
+.discount-message p {
+    margin: 8px;
+} 
+ 
+ 
+.font-bold{
+    text-align: center;
+}
+
+.drag-section {
+    margin: 50px;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid #6b4f4f;
+    text-align: center;
+}
+
+.drag-section h2 {
+    color: #6b4f4f;
+    margin-bottom: 25px;
+}
+
+.drag-products {
+    border: 2px solid #c9a6a6;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.drag-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #6b4f4f;
+    background-color: #f3e5e5;
+}
+
+.drag-item img {
+    width: 120px;
+    height: 150px;
+}
+
+.drop-box {
+    min-height: 200px;
+    border: 2px dashed #6b4f4f;
+    padding: 30px;
+}
+
+.drop-box h3 {
+    color: #6b4f4f;
+}
+
+
+
+
+
+
+
